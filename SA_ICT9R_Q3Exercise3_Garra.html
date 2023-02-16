@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | Exercise 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style type="text/css">
+    img{
+      width: 25%;
+      height: 25%;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+      <h2 style="font-family: 'Josefin Sans', sans-serif;">Top Athletes</h2>
+      <table class="table table-boardered">
+    <thead>
+      <tr>
+        <table class="table table-boardered">
+        <th scope="col" class="bg-primary">Rank</th>
+        <th scope="col" class="table-danger">Athlete</th>
+        <th scope="col" class="table-info">Source of Wealth</th>
+        <th scope="col" class="table-active">Net Worth</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><img src="james.png" class="rounded"> &nbsp;LeBron James</td>
+        <td>basketball, real estate holder and alot of sponsorship and endorsements</td>
+        <td>$126.9M</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><img src="messi.png" class="rounded"> &nbsp;Lionel Messi</td>
+        <td>soccer and commericials</td>
+        <td>$122M</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><img src="ronaldo.png" class="rounded"> &nbsp;Cristiano Ronaldo</td>
+        <td>soccer</td>
+        <td>$115M</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><img src="neymar.jpeg" class="rounded"> &nbsp;Neymar</td>
+        <td>soccer and edorsments</td>
+        <td>$103M</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><img src="alvarez.png" class="rounded"> &nbsp;Canelo Álvarez</td>
+        <td>boxing and businessman</td>
+        <td>$89M</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--Badenhausen, L. A., Akabas, L., & Badenhausen, K. (2022, May 11). 100 Highest-Paid Athletes in the World 2022: Full List. Sportico.com. Retrieved February 9, 2023, from https://www.sportico.com/personalities/athletes/2022/100-highest-paid-athletes-in-the-world-2022-full-list-1234674901/-->
+<div class="container">
+	<h2 style="font-family: 'Josefin Sans', sans-serif;">Sign up now to Recieve updates!</h2>
+	<form class="form-horizontal" action="/action_page.php">
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="email">Email:</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="pwd">Password</label>
+			<div class="col-sm-10">
+				<input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="pwd">Verify Password</label>
+			<div class="col-sm-10">
+				<input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<div class="checkbox">
+					<label><input type="checkbox" name="remember">Remember Me</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-info">Sign In</button>
+				<button type="submit" class="btn btn-danger">Cancel</button>
+			</div>
+		</div>
+	</form>
+</div>
+</body>
+</html>
